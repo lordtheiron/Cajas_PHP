@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" style="background: #000000;">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <title>Almacen</title>
+        <meta name="description" content="Sistema de gestión de almacén.">
+        <link rel="stylesheet" href="../assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fredoka+One">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Sans+Indic+Siyaq+Numbers&amp;display=swap">
+        <link rel="stylesheet" href="../assets/fonts/fontawesome-all.min.css">
+        <link rel="stylesheet" href="../assets/fonts/font-awesome.min.css">
+        <link rel="stylesheet" href="../assets/fonts/simple-line-icons.min.css">
+        <link rel="stylesheet" href="../assets/fonts/fontawesome5-overrides.min.css">
+        <link rel="stylesheet" href="../assets/css/styles.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    </head>
+
+    <body>
+        <div class="landing-threshold">
+            <div class="container-fluid">
+                <div class="landing-intro">
+                    <div data-aos="fade-down" data-aos-duration="1000" data-aos-delay="100" data-aos-once="true" class="login-card" style="font-family: Roboto, sans-serif;background: rgba(0,0,0,0.64);">
+                        <p class="profile-name-card"> <i class="fa fa-unlock-alt d-inline" style="width:0;height:0;font-size:56px;color:rgb(104,145,162);"></i></p>
+                        <form class="form-signin" action="../Controladores/ControladorUsuarioExiste.php">
+                            <span class="reauth-email" style="margin:11px;"> </span>
+                            <input class="form-control" type="text" id="usuario" name="usuario" required="" placeholder="Usuario" autofocus="">
+                            <input class="form-control" type="password" id="clave" name="clave" required="" placeholder="Clave">
+                            <button class="btn btn-primary btn-lg d-block btn-signin w-100" 
+                                    style="font-family:Roboto, sans-serif;font-size:16px;font-weight:normal;font-style:normal;" type="submit">Sign in</button>
+                        </form>
+                        <p class="text-center" style="color:rgb(73,80,87);font-size:11px;">Restricted Area</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="footerpad" style="background: rgb(0,0,0);height: 128.953px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 col-lg-8 text-center mx-auto">
+                        <p class="copyright text-muted text-center">Creador:</p>
+                        <a href="mailto:contato@lfbits.com"><img src="../assets/img/Imagenes/lfbits.png" width="20%"></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="../assets/bootstrap/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+        <script src="../assets/js/script.min.js"></script>
+    </body>
+
+</html>
